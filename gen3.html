@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bootstrap Project - gen 3</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" charset="UTF-8">
+	<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+	<link href="css/mystyle.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<!--navigation-->
+	<div class="navbar navbar-inverse navbar-static-top">
+		<div class="container">
+			<a href="index.html" class="navbar-brand">Alex Stewart \ gen 3</a>
+			<!--collapsale menu trigger-->
+			<button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<div class="collapse navbar-collapse navHeaderCollapse">
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="about.html">About</a></li>
+					<li><a href="tcg.html">TCG</a></li>
+                     <li><a href="go.html">Go</a></li>
+                    <li><a href="media.html">Media</a></li>
+                    <li><a href="videos.html">Videos</a></li>
+                    <li class="dropdown">
+                    <a href="gen.html" class="dropdown-toggle" data-toggle="dropdown">Gen 3<b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                         <li> <a href="gen.html">Gen 1</a></li>
+                         <li> <a href="gen2.html">Gen 2</a></li>
+                         <li> <a href="gen3.html">Gen 3</a></li>
+                         <li> <a href="gen4.html">Gen 4</a></li>   
+                         <li> <a href="gen5.html">Gen 5</a></li>   
+                         <li> <a href="gen6.html">Gen 6</a></li>   
+                         <li> <a href="gen7.html">Gen 7</a></li>    
+                        </ul>
+                    </li>
+                    
+					<li><a href="#contact" data-toggle="modal">Contact</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+<!--About section-->
+    <div class="container">
+    <div class="row">
+        <div class="col-lg-9">
+        <div class=" panel panel-default">
+            <div class="panel-body">
+            <!--panel header-->
+             <div class="page-header">
+                 <h3>Pokemon generations<small>the different eras of pokemon</small></h3>
+                </div>
+                <!--page image-->
+                <img src="assets/pkmngames.JPG" class="featureImg" width="100%;height:200px;"/>
+                
+                <div class="row">
+                <div class="col-lg-1"> </div>
+                     <div class="col-lg-10">
+                         <h3>Gen 3 major changes</h3>
+                <p>Gen 3 brought more major changes to the series with the graphics no longer 8 bit they looked like super nintendo graphics which for the handheld games was a major improvement unfortunately they removed the day and night cycle and the ability to trade between the older games and the sales were not as good as expected signalling the end of pokemainia.
+                    
+                    This was the generation when we moved from square pixels to something that resembles a modern game and the nintendo gamecube allowed 3d graphics that had never been seen before in pokemon which where amazing for the time.</p>
+                
+                         
+                         <h3>pokemon ruby and sapphire and emerald</h3>
+                <p>Pokemon ruby and sapphire changed the story quite a lot which in my opinion was very important that they got rid of team rocket and replaced them with team aqua and magma the two best criminal organisations in the series and it introduced weather effects which were cool at the time and the introduction of abilities and double battles did improve battling overall.</p>
+                         
+                         <img src="assets/pkmn-sapphire.JPG"   style="width:200px;height:200px;"/>
+                         
+                         
+                         <h3>pokemon colosseium and xd gale of darkness </h3>
+                <p>These where the two pokemon games that are amazing graphicaly and gameplay wise quite a rare combination.
+                         
+                    Pokemon colosseum and xd gale of darkness where two 3d RPG games for the nintendo gamecube when i first saw screenshots for colosseum i was just amazed at the graphics they were by far the best pokemon graphics i had ever seen and when I played it wow the rock metal themed guitar music was just incredible it still is one of the best pokemon soundtracks ever it is a very hard game (i have come close but never beaten either of them) and the layout of the towns can be frustrating with lots of odd turns but still the game's amazing
+                         </p>
+                        
+                         <img src="assets/pkmn-coloss.JPG"   style="width:200px;height:200px;"/>
+                         
+                         <img  src="assets/pkmn-xd.JPG"    style="width:200px;height:200px;"/>
+                         
+                         <h3>other pokemon games</h3>
+                <p>Pokemon mystery dungeon was a huge game when it came out this time you're the pokemon going around dungeons and battling other pokemon some of whom may ask to join your team it is a great game with a fun battle style and that you rescue pokemon and do missions but the only annoying thing is that you have to complete the story to eveolve pokemon making the story very hard to beat.
+                    
+                    There were a few other pokemon games like pokemon channel and pokemon dash but in all honesty they don’t feel like pokemon games and pokemon box which is hard to find is more about pokemon storage for ruby/sapphire then a game.</p>
+                         
+                         
+    <a href="gen4.html" class="btn btn-warning" role="button">Gen4</a>
+                    </div>
+                    <div class="col-lg-1"> </div> 
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+	
+<!--footer-->
+	<div class="navbar navbar-default navbar-fixed-bottom">
+		<div class="container">
+			<p class="navbar-text">Site Built by Alex Stewart</p>
+			<a class="navbar-btn btn btn-success pull-right" href="#contact" data-toggle="modal">Contact Us</a>
+		</div>
+	</div>
+	
+<!--modal-->
+	<div class="modal fade" id="contact" role="dialog">
+		<div class="modal-dialog">
+			<div class="modal-content">
+			<!--Modal Form Start-->
+			<form class="form-horizontal">
+				<div class="modal-header"><!--HEADER-->
+					<h3>Contact Us</h3>
+				</div>
+				
+				<div class="modal-body"><!--BODY-->
+					<div class="form-group"><!--name-->
+						<label for="contact-name" class="col-lg-2 control-label">Name</label>
+						<div class="col-lg-10">
+							<input type="text" class="form-control" id="contact-name" placeholder="Full Name">
+						</div>
+					</div>
+					<div class="form-group"><!--email-->
+						<label for="contact-email" class="col-lg-2 control-label">Email</label>
+						<div class="col-lg-10">
+							<input type="email" class="form-control" id="contact-email" placeholder="you@example.com">
+						</div>
+					</div>
+					<div class="form-group"><!--message-->
+						<label for="contact-msg" class="col-lg-2 control-label">Message</label>
+						<div class="col-lg-10">
+							<textarea class="form-control" rows="8"></textarea>
+						</div>
+					</div>
+				</div>
+				
+				<div class="modal-footer"><!--FOOTER-->
+					<a class="btn btn-success" type="submit">Submit</a>
+					<a class="btn btn-default" data-dismiss="modal">
+						Close
+					</a>
+				</div>
+			</form>	
+			<!--Modal Form End-->	
+			</div>
+		</div>
+	</div>
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+</body>
+</html>

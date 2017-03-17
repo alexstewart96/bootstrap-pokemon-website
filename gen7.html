@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bootstrap Project - gen</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" charset="UTF-8">
+	<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+	<link href="css/mystyle.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<!--navigation-->
+	<div class="navbar navbar-inverse navbar-static-top">
+		<div class="container">
+			<a href="index.html" class="navbar-brand">Alex Stewart \ gen</a>
+			<!--collapsale menu trigger-->
+			<button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<div class="collapse navbar-collapse navHeaderCollapse">
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="about.html">About</a></li>
+					<li><a href="tcg.html">TCG</a></li>
+                     <li><a href="go.html">Go</a></li>
+                    <li><a href="media.html">Media</a></li>
+                    <li><a href="videos.html">Videos</a></li>
+                    <li class="dropdown">
+                    <a href="gen.html" class="dropdown-toggle" data-toggle="dropdown">Gen <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                         <li> <a href="gen.html">Gen 1</a></li>
+                         <li> <a href="gen2.html">Gen 2</a></li>
+                         <li> <a href="gen3.html">Gen 3</a></li>
+                         <li> <a href="gen4.html">Gen 4</a></li>   
+                         <li> <a href="gen5.html">Gen 5</a></li>   
+                         <li> <a href="gen6.html">Gen 6</a></li>   
+                         <li> <a href="gen7.html">Gen 7</a></li>    
+                        </ul>
+                    </li>
+                    
+					<li><a href="#contact" data-toggle="modal">Contact</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+<!--About section-->
+    <div class="container">
+    <div class="row">
+        <div class="col-lg-9">
+        <div class=" panel panel-default">
+            <div class="panel-body">
+            <!--panel header-->
+             <div class="page-header">
+                 <h3>Pokemon generations<small>the different eras of pokemon</small></h3>
+                </div>
+                <!--page image-->
+                <img src="assets/pkmngames.JPG" class="featureImg" width="100%;height:200px;"/>
+                
+                <div class="row">
+                <div class="col-lg-1"> </div>
+                     <div class="col-lg-10">
+                         <h3>Gen 7 a gigantic change!</h3>
+                <p>The game which changed the formula by removing gyms and putting in trials that unlocked powerful Z moves you could use once in a battle before it was released I thought that this would ruin the games but it didn’t if anything it was quite nice having a different type of challenge it also had the right difficulty level.</p>
+                
+                         
+                         <h3>Pokemon sun and moon</h3>
+                <p>Pokemon sun and moon has an interesting story good tough battles an amazing landscape and design espically for a handheld and a great variety in pokemon with special alolan forms where they have adpated to the enviroment in fact this has become one of my top 3 gens to play since the game has been that fun the only downside is the frame rate issues that have happened for the first time ever but luckily with the nintendo switch i don’t think that will become a problem in any future release.</p>
+                         
+                         <img src="assets/pkmn-moon.JPG" style="width:200px;height:200px;"/>
+                         
+                         <h3>Nintendo switch</h3>
+                <p>The nintendo switch which has just launched offers a chance for pokemon to really change the game since it is by far the most powerful handheld gaming device on the market.The series could go in many different graphical directions but i still want it to be mainly a top down view because the other 3d rpg pokemon games (colosseum Xd gale of darkness) don't use that view so it is quite hard to navigate around the map.</p>
+                         
+                         
+                         
+                         
+     <a href="index.html" class="btn btn-warning" role="button">Home</a>                    
+                    </div>
+                     <div class="col-lg-1"> </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+	
+<!--footer-->
+	<div class="navbar navbar-default navbar-fixed-bottom">
+		<div class="container">
+			<p class="navbar-text">Site Built by Alex Stewart</p>
+			<a class="navbar-btn btn btn-success pull-right" href="#contact" data-toggle="modal">Contact Us</a>
+		</div>
+	</div>
+	
+<!--modal-->
+	<div class="modal fade" id="contact" role="dialog">
+		<div class="modal-dialog">
+			<div class="modal-content">
+			<!--Modal Form Start-->
+			<form class="form-horizontal">
+				<div class="modal-header"><!--HEADER-->
+					<h3>Contact Us</h3>
+				</div>
+				
+				<div class="modal-body"><!--BODY-->
+					<div class="form-group"><!--name-->
+						<label for="contact-name" class="col-lg-2 control-label">Name</label>
+						<div class="col-lg-10">
+							<input type="text" class="form-control" id="contact-name" placeholder="Full Name">
+						</div>
+					</div>
+					<div class="form-group"><!--email-->
+						<label for="contact-email" class="col-lg-2 control-label">Email</label>
+						<div class="col-lg-10">
+							<input type="email" class="form-control" id="contact-email" placeholder="you@example.com">
+						</div>
+					</div>
+					<div class="form-group"><!--message-->
+						<label for="contact-msg" class="col-lg-2 control-label">Message</label>
+						<div class="col-lg-10">
+							<textarea class="form-control" rows="8"></textarea>
+						</div>
+					</div>
+				</div>
+				
+				<div class="modal-footer"><!--FOOTER-->
+					<a class="btn btn-success" type="submit">Submit</a>
+					<a class="btn btn-default" data-dismiss="modal">
+						Close
+					</a>
+				</div>
+			</form>	
+			<!--Modal Form End-->	
+			</div>
+		</div>
+	</div>
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+</body>
+</html>

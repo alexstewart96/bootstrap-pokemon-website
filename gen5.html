@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bootstrap Project - gen</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" charset="UTF-8">
+	<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+	<link href="css/mystyle.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<!--navigation-->
+	<div class="navbar navbar-inverse navbar-static-top">
+		<div class="container">
+			<a href="index.html" class="navbar-brand">Alex Stewart \ gen</a>
+			<!--collapsale menu trigger-->
+			<button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<div class="collapse navbar-collapse navHeaderCollapse">
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="about.html">About</a></li>
+					<li><a href="tcg.html">TCG</a></li>
+                     <li><a href="go.html">Go</a></li>
+                    <li><a href="media.html">Media</a></li>
+                    <li><a href="videos.html">Videos</a></li>
+                    <li class="dropdown">
+                    <a href="gen.html" class="dropdown-toggle" data-toggle="dropdown">Gen <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                         <li> <a href="gen.html">Gen 1</a></li>
+                         <li> <a href="gen2.html">Gen 2</a></li>
+                         <li> <a href="gen3.html">Gen 3</a></li>
+                         <li> <a href="gen4.html">Gen 4</a></li>   
+                         <li> <a href="gen5.html">Gen 5</a></li>   
+                         <li> <a href="gen6.html">Gen 6</a></li>   
+                         <li> <a href="gen7.html">Gen 7</a></li>    
+                        </ul>
+                    </li>
+                    
+					<li><a href="#contact" data-toggle="modal">Contact</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+<!--About section-->
+    <div class="container">
+    <div class="row">
+        <div class="col-lg-9">
+        <div class=" panel panel-default">
+            <div class="panel-body">
+            <!--panel header-->
+             <div class="page-header">
+                 <h3>Pokemon generations<small>the different eras of pokemon</small></h3>
+                </div>
+                <!--page image-->
+                <img src="assets/pkmngames.JPG" class="featureImg" width="100%;height:200px;"/>
+                
+                <div class="row">
+                <div class="col-lg-1"> </div>
+                     <div class="col-lg-10">
+                         <h3>Gen 5 an interesting generation</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur varius et tellus nec lacinia. Aenean viverra lobortis convallis. Etiam dui magna, commodo sed pellentesque eget, rutrum a mi. Mauris ut congue ante. Nunc fermentum, sem eget hendrerit mattis, tortor lacus varius ligula, vel viverra dui ligula in tortor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur varius et tellus nec lacinia. Aenean viverra lobortis convallis. Etiam dui magna, commodo sed pellentesque eget, rutrum a mi. Mauris ut congue ante. Nunc fermentum, sem eget hendrerit mattis, tortor lacus varius ligula, vel viverra dui ligula in tortor.</p>
+                
+                         
+                         <h3>Pokemon black and white</h3>
+                <p>Pokemon black and white well how do we start my first issue is that it was released on the ds i was hoping that it was going to be released on the nintendo 3ds but it wasn’t although the game looked very good due to another feature I really like and that was that the game changed depending what season it was in game so if it was winter for example there would be snow so walking through the map became far more interesting and it help make the game fun but there was a severe lack of certain types especially the fire type it also had a fairly easy dull battles although the story was very interesting it went a bit too deep in my opinion.</p>
+                         
+                         <img  src="assets/pkmn-black.JPG"  style="width:200px;height:200px;"/>
+                         
+                         <h3>Pokemon black2 and white2</h3>
+                <p>Although i didn't buy either game i did get to play it and I was happy and annoyed at the same time since they fixed all of the problems and issues i mentioned above and it had a great storyline with older pokemon helping the type balence and the battles became more interesting with the game being at the right difficulty.</p>
+                         
+                         <h3>Other pokemon games</h3>
+                <p>Because the 5th generation was short but the biggest other game would be pokemon conquest which is a game I havent played but from what i have heard i really do want to play it since it is a more turn based final fantasy style of battling.</p>
+                         
+                         
+      <a href="gen6.html" class="btn btn-warning" role="button">Gen6</a>                   
+                    </div>
+                     <div class="col-lg-1"> </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+	
+<!--footer-->
+	<div class="navbar navbar-default navbar-fixed-bottom">
+		<div class="container">
+			<p class="navbar-text">Site Built by Alex Stewart</p>
+			<a class="navbar-btn btn btn-success pull-right" href="#contact" data-toggle="modal">Contact Us</a>
+		</div>
+	</div>
+	
+<!--modal-->
+	<div class="modal fade" id="contact" role="dialog">
+		<div class="modal-dialog">
+			<div class="modal-content">
+			<!--Modal Form Start-->
+			<form class="form-horizontal">
+				<div class="modal-header"><!--HEADER-->
+					<h3>Contact Us</h3>
+				</div>
+				
+				<div class="modal-body"><!--BODY-->
+					<div class="form-group"><!--name-->
+						<label for="contact-name" class="col-lg-2 control-label">Name</label>
+						<div class="col-lg-10">
+							<input type="text" class="form-control" id="contact-name" placeholder="Full Name">
+						</div>
+					</div>
+					<div class="form-group"><!--email-->
+						<label for="contact-email" class="col-lg-2 control-label">Email</label>
+						<div class="col-lg-10">
+							<input type="email" class="form-control" id="contact-email" placeholder="you@example.com">
+						</div>
+					</div>
+					<div class="form-group"><!--message-->
+						<label for="contact-msg" class="col-lg-2 control-label">Message</label>
+						<div class="col-lg-10">
+							<textarea class="form-control" rows="8"></textarea>
+						</div>
+					</div>
+				</div>
+				
+				<div class="modal-footer"><!--FOOTER-->
+					<a class="btn btn-success" type="submit">Submit</a>
+					<a class="btn btn-default" data-dismiss="modal">
+						Close
+					</a>
+				</div>
+			</form>	
+			<!--Modal Form End-->	
+			</div>
+		</div>
+	</div>
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+</body>
+</html>

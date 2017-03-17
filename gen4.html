@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bootstrap Project - gen 4</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" charset="UTF-8">
+	<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+	<link href="css/mystyle.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<!--navigation-->
+	<div class="navbar navbar-inverse navbar-static-top">
+		<div class="container">
+			<a href="index.html" class="navbar-brand">Alex Stewart \ gen 4</a>
+			<!--collapsale menu trigger-->
+			<button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<div class="collapse navbar-collapse navHeaderCollapse">
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="about.html">About</a></li>
+					<li><a href="tcg.html">TCG</a></li>
+                     <li><a href="go.html">Go</a></li>
+                    <li><a href="media.html">Media</a></li>
+                    <li><a href="videos.html">Videos</a></li>
+                    <li class="dropdown">
+                    <a href="gen.html" class="dropdown-toggle" data-toggle="dropdown">Gen 4<b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                         <li> <a href="gen.html">Gen 1</a></li>
+                         <li> <a href="gen2.html">Gen 2</a></li>
+                         <li> <a href="gen3.html">Gen 3</a></li>
+                         <li> <a href="gen4.html">Gen 4</a></li>   
+                         <li> <a href="gen5.html">Gen 5</a></li>   
+                         <li> <a href="gen6.html">Gen 6</a></li>   
+                         <li> <a href="gen7.html">Gen 7</a></li>    
+                        </ul>
+                    </li>
+                    
+					<li><a href="#contact" data-toggle="modal">Contact</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+<!--About section-->
+    <div class="container">
+    <div class="row">
+        <div class="col-lg-9">
+        <div class=" panel panel-default">
+            <div class="panel-body">
+            <!--panel header-->
+             <div class="page-header">
+                 <h3>Pokemon generations<small>the different eras of pokemon</small></h3>
+                </div>
+                <!--page image-->
+                <img src="assets/pkmngames.JPG" class="featureImg" width="100%;height:200px;"/>
+                
+                <div class="row">
+                <div class="col-lg-1"> </div>
+                     <div class="col-lg-10">
+                         <h3>pgen 4 pokemon goes dual screen</h3>
+                <p>In this generation the main changes were that the games were now on 2 screens and they had touch screen features it also included lots of new evolutions for old pokemon. It was also the first time I played a pokemon game and I felt the game was very very long.</p>
+                
+                         
+                         <h3>Pokemon diamond and pearl</h3>
+                <p>Pokemon diamond pearl and platinum where the generation were 3d graphics had been used for the building and environment which were quite good at the time but haven’t aged well it was also the first generation where there was enough room in the bag compartments! It also had a good amount of fun and interesting battles and it finally sorted out the physical and special attacks by each individual attack and not by type which made more pokemon usable.</p>
+                         
+                         <img  src="assets/pkmn-diamond.JPG"   style="width:200px;height:200px;"/>
+                         
+                         <h3>pokemon battle revolution</h3>
+                <p>Pokemon battle revolution was a good in principle but in reality it sucked for a start you have to use the pokemon from the handheld games compared to pokemon stadium which also had rental pokemon and pokemon stadium had far more interesting features compared to battle revolution the only unique thing battle revolution had was 3d online battles but even the handheldas had online battles personaly i would recommend avoiding this game.</p>
+                         
+                         <img  src="assets/pkmn-battle.JPG"  style="width:200px;height:200px;"/>
+                         
+                         <h3>other pokemon games</h3>
+                <p>The biggest other pokemon game was pokemon ranger where you used spinners to draw rings around pokemon to capture them it was a very good fun game that I almost completed but the last battle in story mode is very hard but you can a manaphy egg that you can hatch in diamond pearl and platinum the only way to get this pokemon in those games.</p>
+                         
+    <a href="gen5.html" class="btn btn-warning" role="button">Gen5</a>                     
+                    </div>
+                     <div class="col-lg-1"> </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+	
+<!--footer-->
+	<div class="navbar navbar-default navbar-fixed-bottom">
+		<div class="container">
+			<p class="navbar-text">Site Built by Alex Stewart</p>
+			<a class="navbar-btn btn btn-success pull-right" href="#contact" data-toggle="modal">Contact Us</a>
+		</div>
+	</div>
+	
+<!--modal-->
+	<div class="modal fade" id="contact" role="dialog">
+		<div class="modal-dialog">
+			<div class="modal-content">
+			<!--Modal Form Start-->
+			<form class="form-horizontal">
+				<div class="modal-header"><!--HEADER-->
+					<h3>Contact Us</h3>
+				</div>
+				
+				<div class="modal-body"><!--BODY-->
+					<div class="form-group"><!--name-->
+						<label for="contact-name" class="col-lg-2 control-label">Name</label>
+						<div class="col-lg-10">
+							<input type="text" class="form-control" id="contact-name" placeholder="Full Name">
+						</div>
+					</div>
+					<div class="form-group"><!--email-->
+						<label for="contact-email" class="col-lg-2 control-label">Email</label>
+						<div class="col-lg-10">
+							<input type="email" class="form-control" id="contact-email" placeholder="you@example.com">
+						</div>
+					</div>
+					<div class="form-group"><!--message-->
+						<label for="contact-msg" class="col-lg-2 control-label">Message</label>
+						<div class="col-lg-10">
+							<textarea class="form-control" rows="8"></textarea>
+						</div>
+					</div>
+				</div>
+				
+				<div class="modal-footer"><!--FOOTER-->
+					<a class="btn btn-success" type="submit">Submit</a>
+					<a class="btn btn-default" data-dismiss="modal">
+						Close
+					</a>
+				</div>
+			</form>	
+			<!--Modal Form End-->	
+			</div>
+		</div>
+	</div>
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+</body>
+</html>

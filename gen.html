@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bootstrap Project - gen</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" charset="UTF-8">
+	<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+	<link href="css/mystyle.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<!--navigation-->
+	<div class="navbar navbar-inverse navbar-static-top">
+		<div class="container">
+			<a href="index.html" class="navbar-brand">Alex Stewart \ gen</a>
+			<!--collapsale menu trigger-->
+			<button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<div class="collapse navbar-collapse navHeaderCollapse">
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="about.html">About</a></li>
+					<li><a href="tcg.html">TCG</a></li>
+                     <li><a href="go.html">Go</a></li>
+                    <li><a href="media.html">Media</a></li>
+                    <li><a href="videos.html">Videos</a></li>
+                    <li class="dropdown">
+                    <a href="gen.html" class="dropdown-toggle" data-toggle="dropdown">Gen <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                         <li> <a href="gen.html">Gen 1</a></li>
+                         <li> <a href="gen2.html">Gen 2</a></li>
+                         <li> <a href="gen3.html">Gen 3</a></li>
+                         <li> <a href="gen4.html">Gen 4</a></li>   
+                         <li> <a href="gen5.html">Gen 5</a></li>   
+                         <li> <a href="gen6.html">Gen 6</a></li>   
+                         <li> <a href="gen7.html">Gen 7</a></li>    
+                        </ul>
+                    </li>
+                    
+					<li><a href="#contact" data-toggle="modal">Contact</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+<!--About section-->
+    <div class="container">
+    <div class="row">
+        <div class="col-lg-9">
+        <div class=" panel panel-default">
+            <div class="panel-body">
+            <!--panel header-->
+             <div class="page-header">
+                 <h3>Pokemon generations<small>the different eras of pokemon</small></h3>
+                </div>
+                <!--page image-->
+                <img src="assets/pkmngames.JPG" class="featureImg" width="100%;height:200px;"/>
+                
+                <div class="row">
+                <div class="col-lg-1"> </div>
+                     <div class="col-lg-10">
+                         <div class="thumbnail">
+                         <div class="caption">
+                             <div alt="Article one">
+                         <h3>Gen 1 where it all began</h3>
+                <p>Pokemon first started as poket monsters in Japan in February 1996 where it became a huge success it was then ported to north america in 1998 and finally to europe in 1999.</p>           
+                </div>
+                </div>        
+                         
+                         <h3>pokemon red, blue, and yellow</h3>
+                <p>Pokemon red blue and yellow where the first generation of pokemon games where the player would go around different town to earn 8 badges and defeat the elite four who where the strongest trainers in Kanto you also had a rival whyo would always be one step ahaead of you but in the end it comes down to the final battle between you and your rival to become the pokemon champion (which at the time it was a huge surprise that your rival was the champion) for the first games althougfh the graphics where very basic even at the time it is still a fun game to play with great battle merchanics and gameplay but due to later generations it hasn't aged that well which I consider a shame but the positive is that the series has always kept tweaking improving on the merchanics to keep it fun to this day and they all still feel like pokemon games.</p>
+                         
+                             <img src="assets/pkmnblue.JPG" class="rotate270"  style="width:200px;height:200px;"/>
+                             
+                         <h3>pokemon stadium </h3>
+                <p>pokemon stadium was a game released for the nintendo 64 it enabled you to battle pokemon in 3d which was very big at the time since the original games where in four shades of grey so it felt like you where actually battling a machamp insted of a pile of 8 bit squares I still enjoy this game to this day and it also allowed you to use the pokemon from the games onto your tv by using a special adapter so that you can use your own pokemon in the battles.</p>
+           <img src="assets/pkmnstadium.JPG" style="width:200px;height:200px;"/>
+                          
+                         <h3>other pokemon games</h3> 
+                             <p>The other pokemon games on the n64 were good but the best was pokemon snap where you took photos of pokemon its an on rails game and you can throw apples play a flute to wake pokemon and throw a pester ball to hit pokemon and slow them down or eveolve them.</p>  
+        <img src="assets/pkmnsnap.JPG" class="rotate270"  style="width:200px;height:200px;"/>
+                             
+        <a href="gen2.html" class="btn btn-warning" role="button">Gen2</a>                     
+                         </div>    
+                    </div>
+                     <div class="col-lg-1"> </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+	
+<!--footer-->
+	<div class="navbar navbar-default navbar-fixed-bottom">
+		<div class="container">
+			<p class="navbar-text">Site Built by Alex Stewart</p>
+			<a class="navbar-btn btn btn-success pull-right" href="#contact" data-toggle="modal">Contact Us</a>
+		</div>
+	</div>
+	
+<!--modal-->
+	<div class="modal fade" id="contact" role="dialog">
+		<div class="modal-dialog">
+			<div class="modal-content">
+			<!--Modal Form Start-->
+			<form class="form-horizontal">
+				<div class="modal-header"><!--HEADER-->
+					<h3>Contact Us</h3>
+				</div>
+				
+				<div class="modal-body"><!--BODY-->
+					<div class="form-group"><!--name-->
+						<label for="contact-name" class="col-lg-2 control-label">Name</label>
+						<div class="col-lg-10">
+							<input type="text" class="form-control" id="contact-name" placeholder="Full Name">
+						</div>
+					</div>
+					<div class="form-group"><!--email-->
+						<label for="contact-email" class="col-lg-2 control-label">Email</label>
+						<div class="col-lg-10">
+							<input type="email" class="form-control" id="contact-email" placeholder="you@example.com">
+						</div>
+					</div>
+					<div class="form-group"><!--message-->
+						<label for="contact-msg" class="col-lg-2 control-label">Message</label>
+						<div class="col-lg-10">
+							<textarea class="form-control" rows="8"></textarea>
+						</div>
+					</div>
+				</div>
+				
+				<div class="modal-footer"><!--FOOTER-->
+					<a class="btn btn-success" type="submit">Submit</a>
+					<a class="btn btn-default" data-dismiss="modal">
+						Close
+					</a>
+				</div>
+			</form>	
+			<!--Modal Form End-->	
+			</div>
+		</div>
+	</div>
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+</body>
+</html>

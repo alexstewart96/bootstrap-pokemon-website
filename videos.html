@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bootstrap Project - Videos</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" charset="UTF-8">
+	<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+	<link href="css/mystyle.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<!--navigation-->
+	<div class="navbar navbar-inverse navbar-static-top">
+		<div class="container">
+			<a href="index.html" class="navbar-brand">Alex Stewart \ Videos</a>
+			<!--collapsale menu trigger-->
+			<button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<div class="collapse navbar-collapse navHeaderCollapse">
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="tcg.html">TCG</a></li>
+                    <li><a href="go.html">Go</a></li>
+                    <li><a href="media.html">Media</a></li>
+					<li class="active"><a href="videos.html">Videos</a></li>
+                    <li class="dropdown">
+                    <a href="gen.html" class="dropdown-toggle" data-toggle="dropdown">Gen <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                         <li> <a href="gen.html">Gen 1</a></li>
+                         <li> <a href="gen2.html">Gen 2</a></li>
+                         <li> <a href="gen3.html">Gen 3</a></li>
+                         <li> <a href="gen4.html">Gen 4</a></li>   
+                         <li> <a href="gen5.html">Gen 5</a></li>   
+                         <li> <a href="gen6.html">Gen 6</a></li>   
+                         <li> <a href="gen7.html">Gen 7</a></li>   
+                        </ul>
+                    </li>
+                    
+					<li><a href="#contact" data-toggle="modal">Contact</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+<!--About section-->
+    <div class="container">
+    <div class="row">
+        <div class="col-lg-9">
+        <div class=" panel panel-default">
+            <div class="panel-body">
+            <!--panel header-->
+             <div class="page-header">
+                 <h3>Hi, my name is Alex...<small>and these are some cool videos and channels that you need to see</small></h3>
+                </div>
+                <!--page image-->
+                <img src="assets/pkmngames.JPG" class="featureImg" width="100%;height:200px;"/>
+                <p>These are videos that are made by other people mainly on youtube that I have found interesting.Most of them also look at other big gaming francises.</p>
+                
+                    <a href="https://www.youtube.com/user/TheJWittz">Thejwittz A factual youtuber<a/>
+                        
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/ibpxLgU6vTw?ecver=1" frameborder="0" allowfullscreen></iframe>
+                    
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/pB5RfilZVTw?ecver=1" frameborder="0" allowfullscreen></iframe>
+                    
+             <a href="https://www.youtube.com/channel/UCivH06od-2EENq6ibm4LZiw">Dobbs A factual youtuber who puts pokemon music on his channel and tries to do comedy in his videos<a/>
+                
+             <iframe width="560" height="315" src="https://www.youtube.com/embed/nnAFecclA38?ecver=1" frameborder="0" allowfullscreen></iframe>
+                                  
+                                
+             <a href="https://www.youtube.com/user/shadypenguinn">shadypenguin who does lots of battles<a/>            
+                               
+             <iframe width="560" height="315" src="https://www.youtube.com/embed/04E118fvoJM?ecver=1" frameborder="0" allowfullscreen></iframe>
+                       
+                        
+              <a href="https://www.youtube.com/user/MunchingOrange">munchingorange a fan of pokemon go<a/>       
+                      
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/VqJKI7zPEQI?ecver=1" frameborder="0" allowfullscreen></iframe>
+                    
+                    </p>
+            </div>
+            </div>
+        
+        </div>
+       
+        </div>
+    </div>
+	
+<!--footer-->
+	<div class="navbar navbar-default navbar-fixed-bottom">
+		<div class="container">
+			<p class="navbar-text">Site Built by Alex Stewart</p>
+			<a class="navbar-btn btn btn-success pull-right" href="#contact" data-toggle="modal">Contact Us</a>
+		</div>
+	</div>
+	
+<!--modal-->
+	<div class="modal fade" id="contact" role="dialog">
+		<div class="modal-dialog">
+			<div class="modal-content">
+			<!--Modal Form Start-->
+			<form class="form-horizontal">
+				<div class="modal-header"><!--HEADER-->
+					<h3>Contact Us</h3>
+				</div>
+				
+				<div class="modal-body"><!--BODY-->
+					<div class="form-group"><!--name-->
+						<label for="contact-name" class="col-lg-2 control-label">Name</label>
+						<div class="col-lg-10">
+							<input type="text" class="form-control" id="contact-name" placeholder="Full Name">
+						</div>
+					</div>
+					<div class="form-group"><!--email-->
+						<label for="contact-email" class="col-lg-2 control-label">Email</label>
+						<div class="col-lg-10">
+							<input type="email" class="form-control" id="contact-email" placeholder="you@example.com">
+						</div>
+					</div>
+					<div class="form-group"><!--message-->
+						<label for="contact-msg" class="col-lg-2 control-label">Message</label>
+						<div class="col-lg-10">
+							<textarea class="form-control" rows="8"></textarea>
+						</div>
+					</div>
+				</div>
+				
+				<div class="modal-footer"><!--FOOTER-->
+					<a class="btn btn-success" type="submit">Submit</a>
+					<a class="btn btn-default" data-dismiss="modal">
+						Close
+					</a>
+				</div>
+			</form>	
+			<!--Modal Form End-->	
+			</div>
+		</div>
+	</div>
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
